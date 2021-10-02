@@ -72,6 +72,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.36);
             this.exchangeValues.put("RUB", 20.75);
             this.exchangeValues.put("USD", 0.27);
+	    this.exchangeValues.put("RSD", 0.0037);
             break;
             case "Australian Dollar":
             this.exchangeValues.put("AED", 2.67);
@@ -94,6 +95,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.98);
             this.exchangeValues.put("RUB", 55.55);
             this.exchangeValues.put("USD", 0.72);
+	    this.exchangeValues.put("RSD", 0.014);
             break;
             case "Canadian Dollar":
             this.exchangeValues.put("AED", 2.81);
@@ -116,6 +118,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 1.03);
             this.exchangeValues.put("RUB", 58.50);
             this.exchangeValues.put("USD", 0.76);
+	    this.exchangeValues.put("RSD", 0.012);
             break;
             case "Central African Franc ":
             this.exchangeValues.put("AED", 0.0066);
@@ -138,6 +141,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.0024);
             this.exchangeValues.put("RUB", 0.14);
             this.exchangeValues.put("USD", 0.0018);
+	    this.exchangeValues.put("RSD", 5.58);
             break;
             case "Swiss Franc":
             this.exchangeValues.put("AED", 4.02);
@@ -160,6 +164,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 1.48);
             this.exchangeValues.put("RUB", 83.66);
             this.exchangeValues.put("USD", 1.10);
+	    this.exchangeValues.put("RSD", 0.0092);
             break;
             case "Chinese Yuan":
             this.exchangeValues.put("AED", 0.55);
@@ -182,6 +187,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.20);
             this.exchangeValues.put("RUB", 11.67);
             this.exchangeValues.put("USD", 0.15);
+	    this.exchangeValues.put("RSD",0.064);		
             break;
             case "Egyptian Pound":
             this.exchangeValues.put("AED", 0.23);
@@ -204,6 +210,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.086);
             this.exchangeValues.put("RUB", 4.87);
             this.exchangeValues.put("USD", 0.063);
+	    this.exchangeValues.put("RSD",0.15);
             break;
             case "Euro":
             this.exchangeValues.put("AED", 4.28);
@@ -226,6 +233,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 1.59);
             this.exchangeValues.put("RUB", 92.60);
             this.exchangeValues.put("USD", 1.16);
+	    this.exchangeValues.put("RSD",18.23);
             break;
             case "British Pound":
             this.exchangeValues.put("AED", 4.75);
@@ -248,6 +256,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 1.77);
             this.exchangeValues.put("RUB", 102.73);
             this.exchangeValues.put("USD", 1.29);
+	    this.exchangeValues.put("RSD",0.0073);
             break;
             case "Israeli New Shekel":
             this.exchangeValues.put("AED", 1.08);
@@ -270,6 +279,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.39);
             this.exchangeValues.put("RUB", 22.52);
             this.exchangeValues.put("USD", 0.29);
+	    this.exchangeValues.put("RSD",0.032);
             break;
             case "Indian Rupee":
             this.exchangeValues.put("AED", 0.049);
@@ -292,6 +302,7 @@ public class Currency {
             this.exchangeValues.put("SGD", 0.018);
             this.exchangeValues.put("RUB", 1.02);
             this.exchangeValues.put("USD", 0.013);
+	    this.exchangeValues.put("RSD",0.73);
             break;
             case "Japanese Yen":
             this.exchangeValues.put("AED", 0.03);
@@ -469,9 +480,29 @@ public class Currency {
             this.exchangeValues.put("RUB", 1.00);
             this.exchangeValues.put("USD", 0.01);
             break;
-     
-
-
+            case "Serbian Dinar":
+            this.exchangeValues.put("AED", 1.00);
+            this.exchangeValues.put("AUD", 0.37);
+            this.exchangeValues.put("CAD", 0.35);
+            this.exchangeValues.put("CFA", 151.01);
+            this.exchangeValues.put("CHF", 0.25);
+            this.exchangeValues.put("CNY", 1.80);
+            this.exchangeValues.put("EGP", 4.25);
+            this.exchangeValues.put("EUR", 0.23);
+            this.exchangeValues.put("GBP", 0.20);
+            this.exchangeValues.put("ILS", 0.92);
+            this.exchangeValues.put("INR", 20.25);
+            this.exchangeValues.put("JPY", 28.71);
+            this.exchangeValues.put("KWD", 0.08);
+            this.exchangeValues.put("KRW", 302.83);
+            this.exchangeValues.put("NZD", 0.39);
+            this.exchangeValues.put("PLN", 1.0367);
+            this.exchangeValues.put("SAR", 1.02);
+            this.exchangeValues.put("SGD", 0.36);
+            this.exchangeValues.put("RUB", 20.75);
+            this.exchangeValues.put("USD", 0.27);
+	    this.exchangeValues.put("RSD", 0.0037);
+            break;
             case "US Dollar":
             this.exchangeValues.put("AED", 3.67);
             this.exchangeValues.put("AUD", 1.42);
@@ -523,6 +554,7 @@ currencies.add( new Currency("Saudi Riyal", "SAR") );
 currencies.add( new Currency("Singapore Dollar", "SGD") );
 currencies.add( new Currency("Russian Ruble", "RUB") );
 currencies.add( new Currency("US Dollar", "USD") );
+currencies.add( new Currency("Serbian Dinar", "RSD") );
  for (Integer i =0; i < currencies.size(); i++) {
     currencies.get(i).defaultValues();
 }		
